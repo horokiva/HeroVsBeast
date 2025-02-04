@@ -1,4 +1,4 @@
-#ifndef __PROGTEST__
+#ifndef __PROJECT__
 #include <cassert>
 #include <iomanip>
 #include <cstdint>
@@ -202,7 +202,7 @@ Path find_escape_route(const Map& map, const Beast& beast) {
     return {};
 }
 
-#ifndef __PROGTEST__
+#ifndef __PROJECT__
 
 
 // Sample beast which does two moves per one hero move and it might be
